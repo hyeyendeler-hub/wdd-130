@@ -28,22 +28,33 @@ nav a {
 }
 
 main {
-    max-width: 800px;
+    max-width:900px;
     margin: 2rem auto;
-    background-color: #ffffff;
+    background:linear-gradient(to right,white 25%, lightblue , rgb(123, 226, 221)  );
     padding: 2rem;
     border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 main h1 {
     margin-bottom: 1rem;
     color: #003049;
+    font-size: 2.5rem;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
 }
 
 main img {
     display: block;
     margin: 1rem 0;
     border-radius: 6px;
+}
+
+p {
+    font-weight: 300;
+    ;
+
 }
 
 footer {
